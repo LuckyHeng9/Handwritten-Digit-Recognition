@@ -5,7 +5,7 @@ BASE_DIR = "dataset"
 MODEL_PATH = "digit_cnn_model.h5"
 IMG_SIZE = 28
 BATCH_SIZE = 32
-EPOCHS = 70
+EPOCHS = 100
 
 train_ds = tf.keras.utils.image_dataset_from_directory(
     BASE_DIR + "/train",
